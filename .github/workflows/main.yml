@@ -1,0 +1,13 @@
+name: Yash jain
+
+on: 
+  push :
+      branches : [main]
+
+job:
+  demo:
+    runs-on: Ubuntu-latest
+
+    steps:
+     - name: Greeting
+       run: echo "namaste"
